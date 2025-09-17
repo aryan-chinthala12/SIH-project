@@ -1,3 +1,15 @@
 install flask
 flask-cors
 gunicorn
+Flask==2.2,5
+Flask-SQL Alchemy==3.0,3
+python-dotenv==1.0.0
+psycopg2-binary==2.9.7
+
+.env------
+Flaskapp= app.py
+Flask_ENV=development
+Database_URL=postgresql://postgres:
+password@localhost:5432/sih_db  (Replace with actual postgres credentials & DB name
+PORT=5000
+
